@@ -9,7 +9,7 @@ from sklearn.svm import SVR
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
-d = pd.read_csv('/content/turnover.csv', encoding='latin-1')
+d = pd.read_csv('turnover.csv', encoding='latin-1')
 d
 d.isna().sum()
 y = d['event']
